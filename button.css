@@ -1,0 +1,58 @@
+button {
+	outline: none;
+	width: 200px;
+	margin: 10px;
+	padding: 10px;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+button.current {
+	box-shadow: 0 0 0 2px white,
+					    0 0 0 4px black
+}
+
+.active {
+	background-color: green;
+}
+.active:hover {
+	background-color: darkgreen;
+}
+.active:active {
+	background-color: lightgrey;
+}
+
+.inactive {
+	background-color: red;
+}
+.inactive:hover {
+	background-color: darkred;
+}
+
+.reset {
+	color: black;
+}
+.reset:hover {
+	background-color: lightgray;
+}
+.reset:active {
+	background-color: white;
+}
+
+body {
+	max-width: 500px;
+	margin: auto;
+	padding: 1em;
+}
+
+textarea {
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+label {
+	font-weight: 600;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" href="button.css">
+</head>
+<body>
+	<h1>Phrase Scrambler Options</h1>
+	<label for="phraseTextarea">Phrases to scramble, separated by new lines (enter)</label>
+	<div>
+		<textarea style="white-space: pre-wrap" rows="10" id="phraseTextarea">Phrase one&#10;Phrase two&#10;Phrase three</textarea>
+	</div>
+	<div>
+		<label for="scramblerWordInput">Scrambler Word</label>
+		<input type="text" id="scramblerWordInput">
+		<p>If detected on the page, the Scrambler Word will be inserted into the phrases above.</p>
+		<p>NOTE: single-word phrases are NOT scrambled!</p>
+	</div>
+	<button class="active" id="saveButton">Save</button>
+	<button class="reset" id="resetButton">Reset</button>
+	<p>If this project helped you, please consider donating below. Thanks - Nick :)</p>
+	<a href="https://www.buymeacoffee.com/nromano" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+	<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="nromano" data-color="#BD5FFF" data-emoji=""  data-font="Cookie" data-text="Buy Us A Coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+	<script src="options.js"></script>
+</body>
+</html>
